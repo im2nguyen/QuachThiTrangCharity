@@ -1,0 +1,213 @@
+import type { Locale } from "@/lib/locale";
+
+export type NavLink = { href: string; label: string };
+
+export function getNavLinks(locale: Locale): NavLink[] {
+  const p = locale === "en" ? "/en" : "";
+  return [
+    {
+      href: locale === "en" ? "/en/news" : "/tin-tuc",
+      label: locale === "en" ? "News" : "Tin Tức",
+    },
+    {
+      href: `${p}/hoc-bong`,
+      label: locale === "en" ? "Scholarship" : "Học Bổng",
+    },
+    { href: `${p}/hinh-anh`, label: locale === "en" ? "Gallery" : "Hình Ảnh" },
+    { href: `${p}/tai-lieu`, label: locale === "en" ? "Resources" : "Tư Liệu" },
+    { href: `${p}/contact`, label: locale === "en" ? "Contact" : "Liên Lạc" },
+  ];
+}
+
+export type LibrarySection = {
+  id: string;
+  title: string;
+  description: string;
+  links: {
+    slug?: string;
+    label: string;
+    locale?: Locale;
+    external?: string;
+    /** Internal app route without locale prefix, e.g. `hinh-anh`. */
+    path?: string;
+  }[];
+};
+
+const viLibrary: LibrarySection[] = [
+  {
+    id: "I",
+    title: "Thơ Nhạc Tưởng Niệm Quách Thị Trang",
+    description:
+      "Thơ và nhạc viết về Quách Thị Trang — từ những bài thơ tưởng niệm đến các sáng tác âm nhạc mang tên em.",
+    links: [
+      { slug: "mot-vi-sao-nho", label: "Một vì sao nhỏ" },
+      { slug: "nho-trang", label: "Nhớ Trang" },
+      { slug: "diep-khuc-qtt", label: "Điệp khúc Quách Thị Trang" },
+      { slug: "di-vao-lich-su", label: "Đi vào lịch sử" },
+      { slug: "khoc-trang", label: "Khóc Trang" },
+      { slug: "huong-ve-trang", label: "Hướng về Trang" },
+      { slug: "cam-niem-qtt", label: "Cảm niệm Quách Thị Trang" },
+      { slug: "nu-thanh-tu-dao-qtt", label: "Nữ Thánh Tử Đạo Quách Thị Trang" },
+      { slug: "nen-huong-ben-mo", label: "Nén hương bên mộ" },
+      { slug: "dot-nen-huong-thom", label: "Đốt nén hương thơm khấn nguyện cầu" },
+      { slug: "ve-ben-cu", label: "Về Bến Cũ" },
+      { slug: "tuong-niem", label: "Tưởng Niệm" },
+      { slug: "ban-tay-cao-ca", label: "Bàn Tay Cao Cả" },
+      { slug: "hoai-niem-qtt", label: "Hoài niệm Quách Thị Trang" },
+      { slug: "ten-em-viet-giua-cong-truong-lon", label: "Tên Em Viết Giữa Công Trường Lớn" },
+      { slug: "khoc-qtt", label: "Khóc Quách Thị Trang" },
+      { slug: "quach-thi-trang", label: "Quách Thị Trang" },
+      { slug: "tuong-niem-2", label: "Tưởng Niệm" },
+      { slug: "hoa-dao-no-tren-mo", label: "Hoa Đạo Nở Trên Mồ" },
+      { slug: "lua-thieng", label: "Lửa Thiêng Ngày 20-8" },
+      { slug: "hoa-trang-huong-sach", label: "Hoa Trang hương sách" },
+      { slug: "hoa-trang-thanh-tuong", label: "Hoa Trang Thành Tượng" },
+      { slug: "tieng-tho-mua-loan", label: "Tiếng thơ mùa loạn" },
+      { slug: "chan-tinh-cua-em", label: "Chân tình của em" },
+      { slug: "kinh-vieng-qtt", label: "Kính Viếng Quách Thị Trang" },
+      { slug: "ao-trang-mau-dao", label: "Áo Trắng máu đào" },
+      { slug: "mau", label: "Máu" },
+      { slug: "hoa-hong-con-day", label: "Hoa hồng còn đây" },
+      { slug: "em-con-song-mai", label: "Em Còn Sống Mãi" },
+      { slug: "nhac-em-la-vi-sao-sang", label: "Nhạc Em Là Vì Sao Sáng" },
+    ],
+  },
+  {
+    id: "II",
+    title: "Toàn Tập Thơ Nhạc Tưởng Niệm Quách Thị Trang (pdf và Flipbook)",
+    description:
+      "Toàn tập thơ nhạc tưởng niệm Quách Thị Trang — bản PDF và flipbook để đọc trực tuyến hoặc tải về.",
+    links: [
+      { slug: "tap-tho-qtt-2024", label: "Toàn tập (hiệu đính và tái bản lần thứ 3)" },
+      {
+        slug: "",
+        label: "Từng trang tập thơ (Flip Book)",
+        external: "https://online.fliphtml5.com/hywuc/azpp/",
+      },
+      { slug: "tap-tho-qtt-2023", label: "Toàn tập — tái bản lần 2 (pdf)" },
+    ],
+  },
+  {
+    id: "III",
+    title: "Khảo Luận",
+    description:
+      "Bài khảo luận, luận án, và các ghi chép về Quách Thị Trang cùng phong trào sinh viên học sinh.",
+    links: [
+      {
+        slug: "",
+        label: "Luận án South Vietnam 1963-1967",
+        external: "https://escholarship.org/uc/item/0hn5v34r",
+      },
+      { slug: "the-he-qtt-lam-lich-su", label: "Thế Hệ Quách Thị Trang Làm Lịch Sử" },
+      { slug: "", label: "Quách Thị Trang Còn Mãi Thanh Xuân", external: "/pdf/XuanGN24.pdf" },
+      { slug: "", label: "Học Bổng cho Những Người Con Thảo", external: "/pdf/conthao23.pdf" },
+      { slug: "hoi-nhac-si-vn", label: "Em Là Vì Sao Sáng — Hội Nhạc Sĩ Việt Nam" },
+      {
+        slug: "",
+        label: "Quách Thị Trang – một ánh sao trong mùa pháp nạn 1963",
+        external: "https://www.phattuvietnam.net/quach-thi-trang-mot-anh-sao-trong-mua-phap-nan-1963/",
+      },
+      { slug: "tuong-niem-qtt-tinh-thuong", label: "Tưởng Niệm — Nguyệt San Tình Thương" },
+      { slug: "sinh-vien-hoc-sinh-dung-day", label: "Sinh Viên Và Học Sinh Đứng Dậy" },
+      { slug: "doc-tho-em-la-vi-sao-sang", label: "Đọc Tập Thơ Em Là Vì Sao Sáng" },
+      { slug: "qtt-liet-si-tuoi-15", label: "Quách Thị Trang — Liệt sĩ tuổi 15" },
+      { slug: "qtt-wikiand", label: "Quách Thị Trang Bio (Việt Ngữ)" },
+      { slug: "vnnc-tran-van-don", label: "Trích Trần Văn Đôn — Việt Nam Nhân Chứng" },
+    ],
+  },
+  {
+    id: "IV",
+    title: "Địa Danh",
+    description:
+      "Tên Cô QUÁCH THỊ TRANG đã được đặt ở nhiều địa điểm nổi tiếng, bao gồm Trung Tâm Sài Gòn — Thành Phố Hồ Chí Minh, Huyện Nhơn Trạch (Tỉnh Đồng Nai), Phường An Sơn, Huyện Tam Kỳ (Tỉnh Quảng Nam), Thị xã Điện Bàn (Tỉnh Quảng Nam), Phường Nhơn Bình, Thành phố Quy Nhơn (Tỉnh Bình Định), và Phường Bình Khánh, Long Xuyên (Tỉnh An Giang).",
+    links: [{ slug: "dia-danh", label: "Địa Danh" }],
+  },
+  {
+    id: "VI",
+    title: "VIDEO",
+    description: "Video tưởng niệm và ca khúc Em Là Vì Sao Sáng.",
+    links: [
+      {
+        external: "https://youtu.be/HLLujR03c9M?list=RDHLLujR03c9M",
+        label: "EM LÀ VÌ SAO SÁNG ** Ca Sĩ Nhật Trường",
+      },
+      {
+        external: "https://youtu.be/EPehQETyRRM?list=RDEPehQETyRRM",
+        label: "EM LÀ VÌ SAO SÁNG ** Ca Sĩ Trang Mỹ Dung",
+      },
+      {
+        external: "https://youtu.be/SZC3tYOj9pE?list=RDSZC3tYOj9pE",
+        label: "EM LÀ VÌ SAO SÁNG *** Ca Sĩ Nhật Trường",
+      },
+      {
+        external: "https://youtu.be/vAzFg3ssGYg?list=RDvAzFg3ssGYg",
+        label: "EM LÀ VÌ SAO SÁNG **** Ca Sĩ Nhật Trường",
+      },
+      {
+        external: "https://youtu.be/xdk1UqOlr6U?list=RDxdk1UqOlr6U",
+        label: "EM LÀ VÌ SAO SÁNG ***** Ca Sĩ Nhật Trường",
+      },
+      {
+        external: "https://youtu.be/PHZqZGo4mFw",
+        label: "EM LÀ VÌ SAO SÁNG * Ca Sĩ PHẠM HỒNG MƠ",
+      },
+      {
+        external: "https://youtu.be/TwZ72hqft6o",
+        label: "Thăm mộ Liệt sỹ QUÁCH THỊ TRANG — Minh Tuấn",
+      },
+    ],
+  },
+  {
+    id: "VII",
+    title: "KARAOKE",
+    description: "Nhạc và karaoke Em Là Vì Sao Sáng.",
+    links: [
+      { slug: "nhac-em-la-vi-sao-sang", label: "Nhạc EM LÀ VÌ SAO SÁNG * NS Nguyễn Hiền" },
+      {
+        external: "https://youtu.be/i_k3YweY2X8?list=RDi_k3YweY2X8",
+        label: "EM LÀ VÌ SAO SÁNG * Ca Sĩ Trang Mỹ Dung",
+      },
+    ],
+  },
+];
+
+export function getLibrarySections(locale: Locale): LibrarySection[] {
+  const enDescriptions: Record<string, string> = {
+    I: "Poetry and music written in memory of Quách Thị Trang — from memorial poems to musical works bearing her name.",
+    II: "The complete poetry and music collection commemorating Quách Thị Trang — PDF editions and an online flipbook.",
+    III: "Essays, dissertations, and writings about Quách Thị Trang and the student movement.",
+    IV: "Places named for Quách Thị Trang across Vietnam — squares, markets, and streets in Saigon, Đà Nẵng, Quảng Nam, Bình Định, An Giang, and more.",
+    VI: "Memorial videos and performances of Em Là Vì Sao Sáng.",
+    VII: "Karaoke and sheet music for Em Là Vì Sao Sáng.",
+  };
+
+  const enTitles: Record<string, string> = {
+    I: "Poetry & Music in Memory of Quách Thị Trang",
+    II: "Complete Poetry & Music Collection (PDF & Flipbook)",
+    III: "Essays & Scholarship",
+    IV: "Historical Places",
+    VI: "Video",
+    VII: "Karaoke",
+  };
+
+  if (locale === "en") {
+    return viLibrary.map((s) => ({
+      ...s,
+      title: enTitles[s.id] ?? s.title,
+      description: enDescriptions[s.id] ?? s.description,
+      links: s.links.map((l) =>
+        l.slug === "nho-trang"
+          ? { ...l, slug: "nho-trang", locale: "en" as Locale }
+          : l.slug === "qtt-wikiand"
+            ? { ...l, slug: "qtt-wikiand", locale: "en" as Locale }
+            : l
+      ),
+    }));
+  }
+  return viLibrary;
+}
+
+export function libraryHref(slug: string, locale: Locale): string {
+  const base = locale === "en" ? "/en/tai-lieu" : "/tai-lieu";
+  return `${base}/${slug}`;
+}

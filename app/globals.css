@@ -1,0 +1,117 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@config "../tailwind.config.ts";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-heading: var(--font-heading);
+}
+
+:root {
+  --font-sans: "Oswald", system-ui, sans-serif;
+  --font-serif: "Merriweather", Georgia, serif;
+  --font-heading: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 106.25%; /* 17px — slight bump from 16px default */
+  @apply bg-background;
+}
+
+body {
+  @apply text-lam-900 antialiased;
+}
+
+/* Subtle lotus-petal gradient used on hero sections */
+.bg-lam-mesh {
+  background-image:
+    radial-gradient(at 18% 12%, rgba(125, 147, 168, 0.28) 0px, transparent 55%),
+    radial-gradient(at 82% 8%, rgba(238, 180, 190, 0.22) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(63, 143, 79, 0.16) 0px, transparent 55%);
+}
+
+@keyframes float-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float-up {
+  animation: float-up 0.8s cubic-bezier(0.21, 0.6, 0.35, 1) both;
+}
+
+.lotus-divider {
+  @apply h-px bg-border;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-float-up {
+    animation: none;
+  }
+}
+
+@layer base {
+  :root {
+    /* Áo lam + GDPT lotus green palette */
+    --background: #f4f6f8;
+    --foreground: #2f3742;
+    --card: #ffffff;
+    --card-foreground: #2f3742;
+    --popover: #ffffff;
+    --popover-foreground: #2f3742;
+    --primary: #327a41;
+    --primary-foreground: #ffffff;
+    --secondary: #e6eaef;
+    --secondary-foreground: #353f4c;
+    --muted: #e6eaef;
+    --muted-foreground: #5e7388;
+    --accent: #3f8f4f;
+    --accent-foreground: #ffffff;
+    --destructive: #dc2626;
+    --border: #cdd6df;
+    --input: #cdd6df;
+    --ring: #7d93a8;
+    --radius: 0.625rem;
+  }
+  .theme {
+    --font-sans: var(--font-sans);
+    --font-heading: var(--font-heading);
+  }
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground text-base;
+  }
+  html {
+    @apply font-sans;
+  }
+}
