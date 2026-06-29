@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   title: "Quách Thị Trang Foundation",
   description:
     "Quách Thị Trang Foundation — tổ chức phi lợi nhuận tiếp sức cho Học Bổng Quách Thị Trang. Tax-exempt 501(c)(3), EIN #99-3486835.",
+  icons: {
+    icon: [{ url: "/images/quach-thi-trang.png", type: "image/png" }],
+    apple: [{ url: "/images/quach-thi-trang.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
