@@ -208,7 +208,7 @@ export function getFeaturedResources(locale: Locale): FeaturedResourceGroup[] {
         { label: locale === "en" ? "Gallery" : "Hình Ảnh", href: `${p}/hinh-anh` },
         { label: locale === "en" ? "Resources" : "Tư liệu", href: `${p}/tai-lieu` },
         { label: locale === "en" ? "Donate" : "Ủng hộ", href: `${p}/donate` },
-        { label: locale === "en" ? "Contact" : "Liên Hệ", href: `${p}/contact` },
+        { label: locale === "en" ? "Contact" : "Liên Lạc", href: `${p}/contact` },
       ],
     },
   ];

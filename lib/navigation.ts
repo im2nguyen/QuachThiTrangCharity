@@ -15,7 +15,7 @@ export function getNavLinks(locale: Locale): NavLink[] {
     },
     { href: `${p}/hinh-anh`, label: locale === "en" ? "Gallery" : "Hình Ảnh" },
     { href: `${p}/tai-lieu`, label: locale === "en" ? "Resources" : "Tư Liệu" },
-    { href: `${p}/contact`, label: locale === "en" ? "Contact" : "Liên Hệ" },
+    { href: `${p}/contact`, label: locale === "en" ? "Contact" : "Liên Lạc" },
   ];
 }
 
