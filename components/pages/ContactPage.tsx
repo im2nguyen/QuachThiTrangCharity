@@ -7,7 +7,7 @@ const CONTACT_EMAIL = "admin@quachthitrangcharity.com";
 
 const COPY = {
   vi: {
-    title: "Liên Lạc",
+    title: "Liên Hệ",
     description: "Liên hệ với ban điều hành Quỹ Quách Thị Trang",
     heroAlt: "Lễ trao học bổng Quách Thị Trang 2020",
     contactHeading: "Liên hệ qua email",

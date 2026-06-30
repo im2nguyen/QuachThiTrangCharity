@@ -10,7 +10,7 @@ export type ResourcesIntroContent = {
 
 const vi: ResourcesIntroContent = {
   intro:
-    "Tài liệu về Cô Quách Thị Trang gồm các bài thơ nhạc, các bài khảo cứu, các hình ảnh, và các bài viết liên hệ về Cô Quách Thị Trang, và gần đây nhất là tập thơ nhạc tưởng niệm Cô Quách Thị Trang đã được tái bản lần thứ ba. Nội dung của tập thơ nhạc này đã được đăng trên trang web này. Xin bấm vào các liên kết ở cột bên cạnh để đọc. Để giữ tính lịch sử, các tài liệu này sẽ được đăng dưới ngôn ngữ nguyên thủy mà không lược dịch. Chúng tôi sẽ tiếp tục sưu tầm thêm và cũng rất trân trọng đón nhận thêm những tài liệu xác thực của quý vị cùng quí bạn, nếu có.",
+    "Tài liệu về Cô Quách Thị Trang gồm các bài thơ nhạc, các bài khảo cứu, các hình ảnh, và các bài viết liên lạc về Cô Quách Thị Trang, và gần đây nhất là tập thơ nhạc tưởng niệm Cô Quách Thị Trang đã được tái bản lần thứ ba. Nội dung của tập thơ nhạc này đã được đăng trên trang web này. Xin bấm vào các liên kết ở cột bên cạnh để đọc. Để giữ tính lịch sử, các tài liệu này sẽ được đăng dưới ngôn ngữ nguyên thủy mà không lược dịch. Chúng tôi sẽ tiếp tục sưu tầm thêm và cũng rất trân trọng đón nhận thêm những tài liệu xác thực của quý vị cùng quí bạn, nếu có.",
   forewordLeadIn:
     "Dưới đây là Lời Phi Lộ của tập thơ nhạc tưởng niệm Quách Thị Trang:",
   forewordTitle: "Lời Phi Lộ",
