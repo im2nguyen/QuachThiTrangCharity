@@ -1,7 +1,11 @@
 import type { Locale } from "@/lib/locale";
 import { getGalleryEvents } from "@/lib/gallery";
 import { libraryHref } from "@/lib/navigation";
-import { scholarships, scholarshipYears } from "@/content";
+import {
+  scholarshipYears,
+  getScholarshipImages,
+  getScholarshipSummaries,
+} from "@/lib/content-manifest";
 
 export type HomeYearSection = {
   year: string;
@@ -12,12 +16,13 @@ export type HomeYearSection = {
 };
 
 export function getHomeYearSections(locale: Locale, limit = 6): HomeYearSection[] {
+  const summaries = getScholarshipSummaries(locale);
   return getGalleryEvents(locale)
     .slice(0, limit)
     .map((event) => ({
       year: event.year,
       title: event.title,
-      blurb: NEWS_COPY[locale][Number(event.year)]?.blurb ?? "",
+      blurb: summaries[Number(event.year)]?.blurb ?? "",
       href: event.hocBongHref,
       images: event.images,
     }));
@@ -42,61 +47,6 @@ export type FeaturedResourceGroup = {
   links: { label: string; href: string; external?: boolean }[];
 };
 
-const NEWS_COPY: Record<Locale, Record<number, { title: string; blurb: string }>> = {
-  vi: {
-    2025: {
-      title: "Lễ trao học bổng Quách Thị Trang năm 2025",
-      blurb: "Trao học bổng lần 12 — 123 suất.",
-    },
-    2024: {
-      title: "Lễ trao học bổng Quách Thị Trang năm 2024",
-      blurb: "Trao học bổng lần thứ 11 — 129 nữ sinh.",
-    },
-    2023: {
-      title: "Lễ trao học bổng Quách Thị Trang năm 2023",
-      blurb: "94 nữ sinh nhận học bổng lần 10.",
-    },
-    2022: {
-      title: "Lễ trao học bổng Quách Thị Trang năm 2022",
-      blurb: "109 nữ sinh nhận học bổng lần 9.",
-    },
-    2021: {
-      title: "Lễ trao học bổng Quách Thị Trang năm 2021",
-      blurb: "56 nữ sinh nhận học bổng lần 8.",
-    },
-    2020: {
-      title: "Lễ trao học bổng Quách Thị Trang năm 2020",
-      blurb: "26 học sinh nhận học bổng lần 7.",
-    },
-  },
-  en: {
-    2025: {
-      title: "Quach Thi Trang Scholarship Ceremony 2025",
-      blurb: "12th annual awards — 123 scholarships.",
-    },
-    2024: {
-      title: "Quach Thi Trang Scholarship Ceremony 2024",
-      blurb: "11th annual awards — 129 recipients.",
-    },
-    2023: {
-      title: "Quach Thi Trang Scholarship Ceremony 2023",
-      blurb: "94 recipients received the 10th annual awards.",
-    },
-    2022: {
-      title: "Quach Thi Trang Scholarship Ceremony 2022",
-      blurb: "109 recipients received the 9th annual awards.",
-    },
-    2021: {
-      title: "Quach Thi Trang Scholarship Ceremony 2021",
-      blurb: "56 recipients received the 8th annual awards.",
-    },
-    2020: {
-      title: "Quach Thi Trang Scholarship Ceremony 2020",
-      blurb: "26 recipients received the 7th annual awards.",
-    },
-  },
-};
-
 export function ceremonyImage(images: string[]): string | undefined {
   return images.find(
     (src) =>
@@ -107,9 +57,7 @@ export function ceremonyImage(images: string[]): string | undefined {
 }
 
 export function getHeroCeremonyImages(year = 2025, limit = 4): string[] {
-  const data = scholarships[String(year)];
-  if (!data) return [];
-  return data.images
+  return getScholarshipImages(year)
     .filter(
       (src) =>
         !src.includes("/icons/") &&
@@ -120,12 +68,13 @@ export function getHeroCeremonyImages(year = 2025, limit = 4): string[] {
 }
 
 export function getNewsTeasers(locale: Locale, years = [2025, 2024, 2023, 2022]): NewsTeaser[] {
+  const summaries = getScholarshipSummaries(locale);
   const base = locale === "en" ? "/en/hoc-bong" : "/hoc-bong";
   return years
     .map((year) => {
-      const copy = NEWS_COPY[locale][year];
-      const data = scholarships[String(year)];
-      const image = data ? ceremonyImage(data.images) : undefined;
+      const copy = summaries[year];
+      const images = getScholarshipImages(year);
+      const image = ceremonyImage(images);
       if (!copy || !image) return null;
       return {
         year,
@@ -139,9 +88,10 @@ export function getNewsTeasers(locale: Locale, years = [2025, 2024, 2023, 2022])
 }
 
 export function getScholarshipHubCards(locale: Locale) {
+  const summaries = getScholarshipSummaries(locale);
   const links = getScholarshipYearLinks(locale);
   return links.map(({ year, image, href }) => {
-    const copy = NEWS_COPY[locale][year];
+    const copy = summaries[year];
     return {
       year,
       image,
@@ -159,10 +109,10 @@ export function getScholarshipHubCards(locale: Locale) {
 export function getScholarshipYearLinks(locale: Locale): ScholarshipYearLink[] {
   const base = locale === "en" ? "/en/hoc-bong" : "/hoc-bong";
   return scholarshipYears.map((year) => {
-    const data = scholarships[String(year)];
+    const images = getScholarshipImages(year);
     return {
       year,
-      image: data ? ceremonyImage(data.images) : undefined,
+      image: ceremonyImage(images),
       href: `${base}/${year}`,
     };
   });

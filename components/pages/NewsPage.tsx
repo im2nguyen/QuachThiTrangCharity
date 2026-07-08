@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PageTitle } from "@/components/PageTitle";
-import { getNewsArticles } from "@/content/news";
+import { getNewsArticles } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
 
 const COPY = {
@@ -39,7 +39,7 @@ export function NewsPageView({ locale }: { locale: Locale }) {
               {article.title}
             </h2>
             <div className="mt-4 space-y-4">
-              {article.paragraphs.map((paragraph) => (
+              {article.body.split(/\n\n+/).map((paragraph) => (
                 <p
                   key={paragraph.slice(0, 48)}
                   className="font-serif text-sm leading-relaxed text-foreground/90 sm:text-base"

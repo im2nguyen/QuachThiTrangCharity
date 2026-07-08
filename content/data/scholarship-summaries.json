@@ -1,0 +1,54 @@
+{
+  "vi": {
+    "2020": {
+      "title": "Lễ trao học bổng Quách Thị Trang năm 2020",
+      "blurb": "26 học sinh nhận học bổng lần 7."
+    },
+    "2021": {
+      "title": "Lễ trao học bổng Quách Thị Trang năm 2021",
+      "blurb": "56 nữ sinh nhận học bổng lần 8."
+    },
+    "2022": {
+      "title": "Lễ trao học bổng Quách Thị Trang năm 2022",
+      "blurb": "109 nữ sinh nhận học bổng lần 9."
+    },
+    "2023": {
+      "title": "Lễ trao học bổng Quách Thị Trang năm 2023",
+      "blurb": "94 nữ sinh nhận học bổng lần 10."
+    },
+    "2024": {
+      "title": "Lễ trao học bổng Quách Thị Trang năm 2024",
+      "blurb": "Trao học bổng lần thứ 11 — 129 nữ sinh."
+    },
+    "2025": {
+      "title": "Lễ trao học bổng Quách Thị Trang năm 2025",
+      "blurb": "Trao học bổng lần 12 — 123 suất."
+    }
+  },
+  "en": {
+    "2020": {
+      "title": "Quach Thi Trang Scholarship Ceremony 2020",
+      "blurb": "26 recipients received the 7th annual awards."
+    },
+    "2021": {
+      "title": "Quach Thi Trang Scholarship Ceremony 2021",
+      "blurb": "56 recipients received the 8th annual awards."
+    },
+    "2022": {
+      "title": "Quach Thi Trang Scholarship Ceremony 2022",
+      "blurb": "109 recipients received the 9th annual awards."
+    },
+    "2023": {
+      "title": "Quach Thi Trang Scholarship Ceremony 2023",
+      "blurb": "94 recipients received the 10th annual awards."
+    },
+    "2024": {
+      "title": "Quach Thi Trang Scholarship Ceremony 2024",
+      "blurb": "11th annual awards — 129 recipients."
+    },
+    "2025": {
+      "title": "Quach Thi Trang Scholarship Ceremony 2025",
+      "blurb": "12th annual awards — 123 scholarships."
+    }
+  }
+}

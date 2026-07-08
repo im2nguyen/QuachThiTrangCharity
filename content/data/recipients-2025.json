@@ -1,0 +1,342 @@
+[
+  {
+    "type": "special",
+    "school": "PTNK TDTT Bình Chánh Trần Hà Anh",
+    "student": "Võ Yến Nhi"
+  },
+  {
+    "type": "special",
+    "school": "THPT Marie Curie Phan Khánh Băng",
+    "student": "Nguyễn Trần Như Hiền"
+  },
+  {
+    "type": "special",
+    "school": "THPT Marie Curie Phan Khánh Băng",
+    "student": "Đỗ Hoàng Bảo Ngân"
+  },
+  {
+    "type": "special",
+    "school": "THPT Nam Kỳ Khởi Nghĩa Dương Thị Hiền",
+    "student": "Huỳnh Ngọc Như"
+  },
+  {
+    "type": "special",
+    "school": "THPT Nguyễn Huệ Nhan Mẫ n Mẫ n",
+    "student": "Nguyễn Thị Trúc Ngân"
+  },
+  {
+    "type": "special",
+    "school": "THPT Ten Lơ Man Nguyễn Hồng Bảo Ngọc",
+    "student": "Trương Nguyễn Hòa Phương"
+  },
+  {
+    "type": "special",
+    "school": "THPT Ten Lơ Man Nguyễn Hồng Bảo Ngọc",
+    "student": "Nguyễn Yến Vy"
+  },
+  {
+    "type": "special",
+    "school": "THPT Tân Túc Nhan Gia Mẫn",
+    "student": "Phan Lê Quỳnh Như"
+  },
+  {
+    "type": "special",
+    "school": "THPT Trần Hưng Đạo Trương Thùy Linh",
+    "student": "Đỗ Trần Thảo Vân"
+  },
+  {
+    "type": "special",
+    "school": "THPT Trần Văn Giàu Nguyễn Hoàng Ngọc Ánh",
+    "student": "Huỳnh Trần Anh Thư"
+  },
+  {
+    "type": "special",
+    "school": "THPT",
+    "student": "Trường Chinh Nguyễn Ngọc Diễm"
+  },
+  {
+    "type": "special",
+    "school": "THPT",
+    "student": "Đặng Phương Linh"
+  },
+  {
+    "type": "special",
+    "school": "THPT",
+    "student": "Võ An Nguyên"
+  },
+  {
+    "type": "special",
+    "school": "THPT Võ Thị Sáu Nguyễn Ngọc Thủy Tiên",
+    "student": "Trần Ngọc Thanh Trúc"
+  },
+  {
+    "type": "special",
+    "school": "THPT Võ Thị Sáu Nguyễn Ngọc Thủy Tiên",
+    "student": "Nguyễn Bảo Uyên"
+  },
+  {
+    "type": "standard",
+    "school": "THPT An Lạc Nguyễn Ngọc Linh Linh Huệ",
+    "student": "Trần Ái Linh"
+  },
+  {
+    "type": "standard",
+    "school": "THPT An Lạc Nguyễn Ngọc Linh Linh Huệ",
+    "student": "Phan Thị Ngọc Vy"
+  },
+  {
+    "type": "standard",
+    "school": "PTNK TDTT Bình Chánh Đặng Ngọc Anh Thư",
+    "student": "Nguyễn Thùy Vân"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Bùi Thị Xuân Lê Võ Thiên Kim",
+    "student": "Zayna Mousa"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Bùi Thị Xuân Lê Võ Thiên Kim",
+    "student": "Hứa Mỹ Thanh"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Bùi Thị Xuân Lê Võ Thiên Kim",
+    "student": "Trịnh Dương Anh Thư"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Dương Văn Thì Nguyễn Thị Kim Đào",
+    "student": "Dương Ngọc Quỳnh Như"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Dương Văn Thì Nguyễn Thị Kim Đào",
+    "student": "Ngô Hoàng Phương Uyên"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Đào Sơn Tây Nguyễn Thanh Hiền",
+    "student": "Phạm Võ Thanh Thanh"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Đào Sơn Tây Nguyễn Thanh Hiền",
+    "student": "Phạm Lâm Thúy Vy"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Gia Định Nguyễn Đức Nhiêu Anh",
+    "student": "Huỳnh Phương Nhi"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Gia Định Nguyễn Đức Nhiêu Anh",
+    "student": "Nguyễn Hoàng Như Ý"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Gò Vấp Phan Ngọc Tuyết Minh",
+    "student": "Trần Ngọc Bảo Trân"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Herman Gmeinere Lê Thảo Quyên",
+    "student": "Lưu Thụy Linh"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Herman Gmeinere Lê Thảo Quyên",
+    "student": "Nguyến Thanh Tâm"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Herman Gmeinere Lê Thảo Quyên",
+    "student": "Nguyễn Thị Thanh Trúc"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Hoàng Hoa Thám Nguyễn Lê Bảo Anh",
+    "student": "Nguyễn Lê Mai Trâm"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Hoàng Hoa Thám Nguyễn Lê Bảo Anh",
+    "student": "Trần Lê Ánh Tuyết"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Lê Thánh Tôn Huỳnh Nguyễn Nhật Anh",
+    "student": "Phạm Trần Kiều Duyên"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Lê Thánh Tôn Huỳnh Nguyễn Nhật Anh",
+    "student": "Phạm Dương Quỳnh"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Lê Thánh Tôn Huỳnh Nguyễn Nhật Anh",
+    "student": "Nguyễn Võ Kim Quế"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Lê Thánh Tôn Huỳnh Nguyễn Nhật Anh",
+    "student": "Lại Nguyễn Nhân Duyên"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Lê Thánh Tôn Huỳnh Nguyễn Nhật Anh",
+    "student": "Lục Triệu Vy"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Lương Thế Vinh Trần Yến Vy",
+    "student": "Lê Bảo Ngọc"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Lương Thế Vinh Trần Yến Vy",
+    "student": "Huỳnh Ngọc Phương Trinh"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Nam Kỳ Khởi Nghĩa Trịnh Khánh Linh",
+    "student": "Vòng Minh Tuyết"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Nguyễn Huệ Đào Khánh Ngọc",
+    "student": "Phan Thị Hồng Ngọc"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Nguyễn Công Trứ Đỗ Thúy Hường",
+    "student": "Phạm Phương Nhiên"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Nguyễn Công Trứ Đỗ Thúy Hường",
+    "student": "Ngô Mai Trang"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Nguyễn Trung Trực Đặng Nguyễn Hồng Anh",
+    "student": "Trần Ngọc Yến Như"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Nguyễn Trung Trực Đặng Nguyễn Hồng Anh",
+    "student": "Nguyễn Đàm Gia Phương"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Nguyễn Văn Cừ Nguyễn Gia An",
+    "student": "Nguyễn Trần Ngọc Diễm"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phạm Phú Thứ Lỷ Quý Doanh",
+    "student": "Nguyễn Thị Xuân Trang"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phạm Phú Thứ Lỷ Quý Doanh",
+    "student": "Nguyễn Ngọc Bảo Trâm"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phạm Phú Thứ Lỷ Quý Doanh",
+    "student": "Trần Ngọc Yến Vy"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phan Đăng Lưu Nguyễn Trần Quỳnh Mai",
+    "student": "Trịnh Vân Anh"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phong Phú Nguyễn Ngọc Châu",
+    "student": "Lê Thị Anh Thư"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phong Phú Nguyễn Ngọc Châu",
+    "student": "Nguyễn Ngọc Xuân Nghi"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phong Phú Nguyễn Ngọc Châu",
+    "student": "Võ Thị Thanh Hằng"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Phước Long Đỗ Hiếu Thảo",
+    "student": "Vũ Anh Thư"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Tân Túc Nguyễn Thị Kiều Oanh",
+    "student": "Lý Ngọc Phương"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Tân Túc Nguyễn Thị Kiều Oanh",
+    "student": "Phan Huỳnh Phi Yến"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Thạnh Lộc Võ Thanh Ngọc",
+    "student": "Bùi Thị Thanh Thảo"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Thạnh Lộc Võ Thanh Ngọc",
+    "student": "Phan Thị Vân"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Thanh Đa Nguyễn Ngọc Thanh Phương",
+    "student": "Bùi Thanh Như Ngọc"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Thanh Đa Nguyễn Ngọc Thanh Phương",
+    "student": "Nguyễn Ngọc Thanh Trúc"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Trần Hưng Đạo Nguyễn Đỗ Quỳnh Anh",
+    "student": "Nguyễn Lê Phương Nhi"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Trần Phú Võ Thị Kim Thơ",
+    "student": "Lê Thị Thanh Thủy"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Trần Văn Giàu Đặng Thuỳ Dương",
+    "student": "Chung Thị Thúy Vy"
+  },
+  {
+    "type": "standard",
+    "school": "THPT",
+    "student": "Trường Chinh Hoàng Lê Anh Thư"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Vĩnh Lộc B Trần Thị Kiều Anh",
+    "student": "Trần Mỹ Dung"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Vĩnh Lộc B Trần Thị Kiều Anh",
+    "student": "Lê Yến Nhi"
+  },
+  {
+    "type": "standard",
+    "school": "THPT Võ Thị Sáu Nguyễn Ánh Hồng",
+    "student": "Trần Mai Uyên Nhi"
+  }
+]

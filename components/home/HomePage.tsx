@@ -1,6 +1,5 @@
-import { homeContent } from "@/content";
+import { getHomeMission } from "@/lib/content";
 import { getHomeYearSections } from "@/lib/home-content";
-import { normalizeHomeMissionHtml } from "@/lib/normalize-home-mission";
 import type { Locale } from "@/lib/locale";
 import { HomeHero } from "./HomeHero";
 import { HomeScrollLayout } from "./HomeScrollLayout";
@@ -8,7 +7,7 @@ import { HomeScrollLayout } from "./HomeScrollLayout";
 const SHOW_HOME_HERO = true;
 
 export function HomePage({ locale }: { locale: Locale }) {
-  const missionHtml = normalizeHomeMissionHtml(homeContent[locale].missionHtml);
+  const mission = getHomeMission(locale);
   const yearSections = getHomeYearSections(locale);
 
   return (
@@ -17,7 +16,8 @@ export function HomePage({ locale }: { locale: Locale }) {
       {SHOW_HOME_HERO && <HomeHero locale={locale} />}
       <HomeScrollLayout
         locale={locale}
-        missionHtml={missionHtml}
+        missionContent={mission.body}
+        missionVariant={mission.variant}
         yearSections={yearSections}
       />
     </>

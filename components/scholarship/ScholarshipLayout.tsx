@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PageTitle } from "@/components/PageTitle";
-import { scholarshipYears } from "@/content";
+import { scholarshipYears } from "@/lib/content-manifest";
 import type { Locale } from "@/lib/locale";
 import { cn } from "@/lib/utils";
 

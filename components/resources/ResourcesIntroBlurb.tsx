@@ -1,4 +1,4 @@
-import { getResourcesIntroContent } from "@/lib/resources-intro";
+import { getResourcesIntroContent } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
 
 const bodyTextClassName =

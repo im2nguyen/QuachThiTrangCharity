@@ -1,5 +1,5 @@
 import { ScholarshipYearPage } from "@/components/pages/ScholarshipYear";
-import { scholarshipYears } from "@/content";
+import { scholarshipYears } from "@/lib/content-manifest";
 
 export function generateStaticParams() {
   return scholarshipYears.map((y) => ({ year: String(y) }));

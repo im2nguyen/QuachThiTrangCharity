@@ -1,14 +1,10 @@
-import fs from "fs";
-import path from "path";
 import { notFound } from "next/navigation";
-import { HtmlContent } from "@/components/HtmlContent";
+import { MarkdownContent } from "@/components/MarkdownContent";
 import { ScholarshipLayout } from "@/components/scholarship/ScholarshipLayout";
+import { getHueRecipientsPage } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
 
-const FILES: Record<string, string> = {
-  "2024": "recipients2024.htm",
-  "2020": "recipients2020.htm",
-};
+const HUE_YEARS = new Set(["2020", "2024"]);
 
 export function HueRecipientsView({
   year,
@@ -17,15 +13,13 @@ export function HueRecipientsView({
   year: string;
   locale?: Locale;
 }) {
-  const file = FILES[year];
-  if (!file) notFound();
-  const fp = path.join(process.cwd(), "..", "Original-QuachThiTrangCharity", file);
-  if (!fs.existsSync(fp)) notFound();
-  const html = fs.readFileSync(fp, "utf8");
+  if (!HUE_YEARS.has(year)) notFound();
+  const page = getHueRecipientsPage(year);
+  if (!page) notFound();
 
   return (
     <ScholarshipLayout locale={locale} activeYear={year}>
-      <HtmlContent html={html} />
+      <MarkdownContent content={page.body} />
     </ScholarshipLayout>
   );
 }
