@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
@@ -24,9 +25,7 @@ import { cn } from "@/lib/utils";
 import { getNavLinks } from "@/lib/navigation";
 import { getLocaleFromPath } from "@/lib/locale";
 import { LocaleToggle } from "./LocaleToggle";
-import { scholarshipYears } from "@/content";
-import Image from "next/image";
-import { galleryByYear } from "@/content";
+import { scholarshipYears, galleryByYear } from "@/lib/content-manifest";
 import { filterGalleryImages } from "@/lib/gallery";
 import {
   NavigationMenuContent,

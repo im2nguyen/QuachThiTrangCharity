@@ -1,21 +1,21 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { HtmlContent } from "@/components/HtmlContent";
+import { MarkdownContent } from "@/components/MarkdownContent";
 import { HomeParallaxPhotos } from "./HomeParallaxPhotos";
 import type { HomeYearSection } from "@/lib/home-content";
+import type { ContentVariant } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
-
-const MISSION_CONTENT_CLASS =
-  "text-sm sm:text-base [&_.home-poem]:my-8 [&_.home-poem]:text-center [&_.home-poem-author]:mt-3 [&_.home-poem-author]:font-sans [&_.home-poem-author]:text-xs [&_.home-poem-author]:uppercase [&_.home-poem-author]:tracking-[0.18em] [&_.home-poem-author]:text-muted-foreground sm:[&_.home-poem-author]:text-sm [&_.home-poem-line]:block [&_.home-poem-line]:font-serif [&_.home-poem-line]:text-base [&_.home-poem-line]:italic [&_.home-poem-line]:leading-relaxed [&_.home-poem-line]:text-[#538b01] sm:[&_.home-poem-line]:text-lg [&_.home-poem-lines]:m-0 [&_.home-poem-lines]:border-0 [&_.home-poem-lines]:p-0 [&_.home-poem-note]:mt-2 [&_.home-poem-note]:text-xs [&_.home-poem-note]:text-muted-foreground [&_.pi]:mb-6 [&_.pi]:leading-relaxed [&_.pi]:last:mb-0 [&_img[src*='devider']]:hidden [&_img[src*='electronc']]:hidden";
 
 export function HomeScrollLayout({
   locale,
-  missionHtml,
+  missionContent,
+  missionVariant,
   yearSections,
 }: {
   locale: Locale;
-  missionHtml: string;
+  missionContent: string;
+  missionVariant: ContentVariant;
   yearSections: HomeYearSection[];
 }) {
   const defaultYear = yearSections[0]?.year ?? "2025";
@@ -75,7 +75,7 @@ export function HomeScrollLayout({
 
         <div className="min-w-0">
           <article ref={missionRef} id="home-mission" className="scroll-mt-28">
-            <HtmlContent html={missionHtml} className={MISSION_CONTENT_CLASS} />
+            <MarkdownContent content={missionContent} variant={missionVariant} />
           </article>
 
           <div className="mt-10 lg:hidden">

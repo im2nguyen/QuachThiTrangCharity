@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { RecipientRow, RecipientType } from "@/content/recipients/recipients-2025";
+import type { RecipientRow, RecipientType } from "@/lib/content-types";
 import { cn } from "@/lib/utils";
 
 type Props = {

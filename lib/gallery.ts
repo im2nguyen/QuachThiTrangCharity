@@ -1,4 +1,4 @@
-import { galleryByYear } from "@/content";
+import { galleryByYear } from "@/lib/content-manifest";
 import type { Locale } from "@/lib/locale";
 
 export type GalleryEvent = {

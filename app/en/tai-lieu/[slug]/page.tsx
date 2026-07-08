@@ -1,5 +1,5 @@
 import { LibraryPageView } from "@/components/pages/LibraryPage";
-import { getLibrarySlugs } from "@/content";
+import { getLibrarySlugs } from "@/lib/content";
 
 export function generateStaticParams() {
   return getLibrarySlugs("en").map((slug) => ({ slug }));

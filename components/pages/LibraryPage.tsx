@@ -1,31 +1,13 @@
 import { notFound } from "next/navigation";
 import { ResourcesLayout } from "@/components/resources/ResourcesLayout";
 import { PdfViewer } from "@/components/resources/PdfViewer";
-import { HtmlContent } from "@/components/HtmlContent";
-import { getLibraryPage } from "@/content";
-import { getLibrarySections } from "@/lib/navigation";
-import { stripDuplicateTitle } from "@/lib/strip-duplicate-title";
+import { MarkdownContent } from "@/components/MarkdownContent";
+import { getLibraryPage } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
-
-function isEssaySlug(slug: string, locale: Locale) {
-  const essaySection = getLibrarySections(locale).find((s) => s.id === "III");
-  return essaySection?.links.some((l) => l.slug === slug) ?? false;
-}
-
-function isPlacesSlug(slug: string) {
-  return slug === "dia-danh";
-}
 
 export function LibraryPageView({ slug, locale }: { slug: string; locale: Locale }) {
   const page = getLibraryPage(slug, locale);
   if (!page) notFound();
-
-  const bodyHtml = page.pdf ? page.bodyHtml : stripDuplicateTitle(page.bodyHtml, page.title);
-  const contentVariant = isPlacesSlug(slug)
-    ? "places"
-    : isEssaySlug(slug, locale)
-      ? "default"
-      : "poetry";
 
   return (
     <ResourcesLayout locale={locale}>
@@ -38,7 +20,7 @@ export function LibraryPageView({ slug, locale }: { slug: string; locale: Locale
         {page.pdf ? (
           <PdfViewer src={page.pdf} title={page.title} />
         ) : (
-          <HtmlContent html={bodyHtml} variant={contentVariant} />
+          <MarkdownContent content={page.body} variant={page.variant} />
         )}
       </article>
     </ResourcesLayout>
