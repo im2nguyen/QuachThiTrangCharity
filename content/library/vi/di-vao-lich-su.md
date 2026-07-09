@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_ĐI VÀO LỊCH SỬ_
-
 Tưởng niệm hương hồn nữ sinh Quách Thị Trang, người đã bỏ mình cho Tự Do và Đạo Pháp trong cuộc biểu tình của học sinh ngày 25-8-1963 tại công trường Diên Hồng, Sài Gòn.  
 Công trường Diên Hồng đẫm máu  
 Ngày 25 tháng 8 năm 1963  

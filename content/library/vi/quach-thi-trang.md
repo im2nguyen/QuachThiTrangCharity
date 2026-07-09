@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _QUÁCH THỊ TRANG_
-
 Gửi hương hồn Quách Thị Trang  
 
 Quách Thị Trang  

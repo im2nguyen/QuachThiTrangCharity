@@ -4,9 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-KÍNH VIẾNG  
-_QUÁCH THỊ TRANG_
-
 Kính viếng linh hồn Quách Thị Trang  
 Cầu siêu cúng Phật một tuần nhang  
 Trương cờ đả đảo quân tàn bạo  

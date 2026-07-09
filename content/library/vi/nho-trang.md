@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _Nhớ Trang_
-
 Thôi nhé từ đây cách biệt rồi  
 Âm dương đôi ngả đã chia phôi  
 Nào ai dám nghĩ rằng Trang chết  

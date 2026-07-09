@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_Hoa Trang Thành Tượng_
-
 Các ngã trôi về muôn tiếng vang,  
 Trái tim rung  
 cho đất rung theo nhịp chèo liên giang.

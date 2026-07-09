@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _Hướng về Trang_
-
 Trang, Trang...  
 Mắt mờ thương cảm  
 Nét run nguệch ngoạc  

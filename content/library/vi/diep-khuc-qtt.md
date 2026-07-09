@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_ĐIỆP KHÚC QUÁCH THỊ TRANG_
-
 Em chết  
 chưa đầy hai mươi tuổi  
 Đạn nổ vang vừng trán  

@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_Hoài niệm Quách Thị Trang_
-
 Kính điếu anh hồn Thánh tử đạo  
 Diệu Nghiêm Quách Thị Trang  
 

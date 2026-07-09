@@ -4,15 +4,10 @@ section: "I"
 variant: "poetry"
 ---
 
-_Một vì sao nhỏ_
-
-_Tâm thành tưởng niệm người con gái học trò  
+Tâm thành tưởng niệm người con gái học trò  
 đã đem áo trắng mùa xuân  
 đắp trái tim lịch sử.  
-M. Đ.  
-_
-
-_
+M. Đ.
 
 Ngửa mặt nhìn trời xanh tháng giêng  
 Mây bay vê mấy nẻo ưu phiền  
@@ -49,21 +44,14 @@ Em đi, đi mãi không về nữa
 Đôi mắt đẹp nào khi khép kín  
 Một vì sao nhỏ thắp đêm đêm ...  
 
-_Saigon, Tháng chạp-1963  
+Saigon, Tháng chạp-1963  
 Trích mục Tâm Tư Thời Đại,  
 Nhật báo Ngày Nay,  
 Thứ Bẩy, 11 tháng 1 năm 1964  
-_
-
-_
 
 ## _Lời Bàn_
 
-_
 MINH-ĐƯỜNG, trong bài thơ Một Vì Sao Nhỏ, đã làm tôi suy nghĩ không ít. Thật vậy việc cô Quách thị Trang hy sinh cho đại nghĩa, ở thời kỳ tiền cách mạng, đã trở thành một đề tài cho thi ca. Nhưng làm được một bài thơ "hay" với đề tài ấy thì không dễ chút nào hết ! Có hai phương thức để khai thác đề tài: Trực tiếp và gian tiếp. Dùng phương thức thứ nhất tức là trong bài gọi đích danh Cô Trang mà kể lể, hoặc ca ngợi, vẽ lại hẳn bầu không khí đấu tranh lúc ấy và gắng làm sống lại vai trò lịch sử của Trang. Thơ gởi đến tòa Soạn có đến 3,4 chục bài, sáng tác theo phương thức này, nhưng chưa ai thành công được cả. Bạn Minh - Đường, có lẽ cũng đã cân nhắc kỹ lưỡng, nên lựa phương thức thứ hai : Chỉ gợi đến vang bóng của người nữ sinh dũng cảm ấy mà không nhắc đến họ tên, chỉ tượng tượng ra những nét thi vị bao quanh cuộc tranh đấu kia mà không vẽ lại trường hợp. Minh Đường đã thành công.
 
-##### _Vũ Hoàng Chương  
-(Phụ trách mục Tâm Tư Thời Đai-Báo Ngày Nay)  
-_
-
-___
+Vũ Hoàng Chương  
+(Phụ trách mục Tâm Tư Thời Đai-Báo Ngày Nay)

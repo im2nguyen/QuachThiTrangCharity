@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_Tiếng Thơ Mùa Loạn
-
 Lẽ Từ Bi truyền ra cho Bạo Lực  
 Quỳ xuông nơi đây!  
 Duới gót nguơi máu lệ tràn đầy.  

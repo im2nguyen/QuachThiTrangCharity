@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _TƯỞNG NIỆM_
-
 Dâng hồn linh Quách Thị Trang  
 
 Đây vần thơ trắng viết dâng lên  

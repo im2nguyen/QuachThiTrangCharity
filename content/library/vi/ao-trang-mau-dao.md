@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_ÁO TRẮNG MÁU ĐÀO_
-
 Kính viếng hương hồn  
 QUÁCH THỊ TRANG  
 

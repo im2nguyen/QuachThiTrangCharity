@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _Hoa Trang Hương Sách_
-
 (NHỊ THẬP BÁT TÚ)  
 
 Nước Việt từ sau buổi xuống đường,  

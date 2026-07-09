@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_MÁU_
-
 **I**  
 Rừng rực lửa hờn khơi tự trước  
 Máu hồng sôi sục chảy trong thân;  

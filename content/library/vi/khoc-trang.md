@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_KHÓC TRANG_
-
 Kính điếu Anh-hồn  
 Thánh Tử Đạo Diệu-Nghiêm  
 QUÁCH-THỊ-TRANG
