@@ -4,9 +4,7 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _HOA ĐẠO NỞ TRÊN MỒ_
-
-để chiêu niệm Thích nữ tử đạo  
+Để chiêu niệm Thích nữ tử đạo  
 Diệu Nghiêm Quách Thị Trang  
 
 Hoa đời cài lên áo  

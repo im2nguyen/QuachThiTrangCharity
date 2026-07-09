@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _TƯỞNG NIỆM_
-
 Gửi hương hồn Quách Thị Trang  
 
 Thôi rồi Trang đã ra đi  

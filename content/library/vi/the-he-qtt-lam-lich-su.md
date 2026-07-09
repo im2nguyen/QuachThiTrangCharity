@@ -4,8 +4,6 @@ section: "III"
 variant: "default"
 ---
 
-_THẾ HỆ QUÁCH THỊ TRANG LÀM LỊCH SỬ_
-
 Thiếu Sơn  
 
 Hải Triều Âm số 19 viết: " Quách thị Trang có diễm phúc chết giữa thanh thiên bạch nhật , chết để sống mãi trong lòng chúng ta, trong tình yêu thương và cảm phục; chết để trở thành một chất liệu củng cố, gắn chặt trong hàng ngũ thanh niên, thế hệ Quách thị Trang". Sáng bữa 25-8 tôi có đến để chứng kiến lễ truy điệu nữ sinh Quách thị Trang ở bùng binh trước chợ Bến Thành. Ngay sau đó các em học sinh đã hì hục đặt chân tượng em Trang.  

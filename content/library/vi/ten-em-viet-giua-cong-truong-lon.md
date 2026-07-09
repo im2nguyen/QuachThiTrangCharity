@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_Tên Em Viết Giữa Công Trường Lớn_
-
 Mũi súng oan khiên đã giết rồi,  
 Hết đời cô gái chớm đôi mươi.  
 Tên em viết giữa công trường lớn,  

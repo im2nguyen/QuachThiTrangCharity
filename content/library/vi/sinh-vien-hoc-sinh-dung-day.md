@@ -7,12 +7,10 @@ variant: "default"
 SINH VIÊN VÀ HỌC SINH ĐỨNG DẬY
 
 Chương 40  
-_Việt Nam Phật giáo sử luận_  
+Việt Nam Phật giáo sử luận
 NGUYỄN LANG
 
-__
-
-__Sáng ngày 21.8.1963, sau khi đánh úp các chùa trong toàn quốc, tổng thống Ngô Đình Diệm triệu tập nội các và báo tin là quân luật đã được thiết lập trên toàn lãnh thổ vì Cộng quân đã xâm nhập các châu thành và vùng phụ cận thủ đô Sài Gòn. Ông cũng cho các vị bộ trưởng hay về việc đánh chiếm các chùa và bắt giữ “bọn tăng ni làm loạn”.  
+Sáng ngày 21.8.1963, sau khi đánh úp các chùa trong toàn quốc, tổng thống Ngô Đình Diệm triệu tập nội các và báo tin là quân luật đã được thiết lập trên toàn lãnh thổ vì Cộng quân đã xâm nhập các châu thành và vùng phụ cận thủ đô Sài Gòn. Ông cũng cho các vị bộ trưởng hay về việc đánh chiếm các chùa và bắt giữ “bọn tăng ni làm loạn”.  
 Bộ trưởng bộ Ngoại giao Vũ Văn Mẫu đập bàn lên tiếng phản đối hành động dã man của chính quyền. Ông bỏ buổi họp ra về, cạo đầu để bày tỏ lập trường mình và gửi thư từ chức Bộ trưởng bộ Ngoại giao. Rồi ông bôn ba đi tìm các vị khoa trưởng và các giáo sư đại học đồng nghiệp cũ của ông, vận động thành lập Phong trào Trí thức chống độc tài. Hành động quả cảm của ông Vũ Văn Mẫu đã châm ngòi cho phong trào sinh viên và học sinh bùng cháy trong toàn quốc. Sinh viên Trung tâm Kỹ thuật Phú Thọ bãi khóa ngay trong buổi chiều 21.8.1963. Giáo sư Lê Sĩ Ngạc của Trung Tâm đứng lên tán đồng lập trường của sinh viên và lên án chính sách tàn bạo của chính quyền.  
 Chiều ngày 22.8.1963 khoa trưởng Y khoa Sài Gòn là bác sĩ Phạm Biểu Tâm gửi đơn từ chức. Ông bị bắt giam và ngày hôm sau 23.8.1963, nghe tin ông bị bắt, tất cả sinh viên Y khoa kéo nhau đến trường. Họ bàn tính kế hoạch chia thành từng nhóm đi thuyết phục các vị khoa trưởng và giáo sư các khoa từ chức. Đồng thời họ bàn luận kế hoạch vận động thành lập một Ủy ban Chỉ đạo Sinh viên Liên khoa. Chiều hôm ấy Ủy ban này được thành lập, do sinh viên Tô Lai Chánh đứng làm chủ tịch. Ủy ban gồm có mười tám sinh viên. Đại diện cho Dược khoa có cô Lê Thị Hạnh; Y khoa: Đường Thiệu Đồng; Văn khoa: Lâm Tường Vũ; Kiến trúc: Nguyễn Hữu Đồng; Công chánh: Nguyễn Thanh; Sư phạm: Nguyễn Văn Vĩnh; Luật khoa: Tô Lai Chánh. Ủy ban Chỉ đạo Sinh viên Liên khoa phát động phong trào bãi khóa: Sinh viên các trường Y khoa, Luật khoa, Dược khoa, Mỹ thuật, v.v… theo gót sinh viên Trung tâm Kỹ thuật Phú Thọ lần lượt bãi khóa. Trong thời gian vài tuần lễ, phong trào bãi khóa lan tới tất cả các cấp trung học ở toàn quốc.  
 Sáng ngày 24.8.1963 trên ba ngàn sinh viên và học sinh tụ tập tại trường Luật khoa Sài Gòn để tiếp giáo sư Vũ Văn Mẫu. Họ vây quanh ông Mẫu, hoan hô ông vang dội. Đồng thời Ủy ban Chỉ đạo tung ra một bản tuyên ngôn mà họ đã biểu quyết ngày hôm qua, 23.8.1963, yêu cầu chính quyền:  
@@ -135,13 +133,8 @@ Ngày 31.12.1963 các đoàn thể Phật giáo trong đó có Tổng hội Ph�
 \[4\] Tài liệu bí mật Ngũ Giác Đài cũng khẳng định rằng các tướng lãnh cấp trên bị thúc đẩy bởi những cuộc âm mưu đảo chính của các tướng tá trẻ tuổi. Điện văn của đại sứ Lodge gửi về Hoa Thịnh Đốn ngày 5.10.1963 cho biết là sáng hôm ấy tướng Minh đã nói rằng một trong những nguyên do khiến ông phải hành động mau chóng là vì “có nhiều cấp chỉ huy đơn vị sư đoàn, đại đội, v.v… đang âm thầm chuẩn bị những kế hoạch đảo chính của riêng họ”, và nếu ông không hành động mau thì “những cuộc đảo chính ấy có thể thất bại” và có thể làm hư hết công chuyện. Tướng Minh cũng nhấn mạnh rằng việc đảo chính là việc của ông và của các tướng lãnh khác trong quân đội, và ông không muốn Hoa Kỳ xen vào. Ông chỉ cần Hoa Kỳ cam kết là không tìm cách “thọc gậy bánh xe” mà thôi.  
 \[5\] Tướng Tôn Thất Đính đã thuyết phục ông Ngô Đình Diệm rằng nếu để cho Lực lượng Đặc biệt đi hành quân thì mới mong Hoa Kỳ có thể tái lập viện trợ cho quân đoàn này được.  
 \[6\] Nhật ký Đỗ Thọ, Đồng Nai, Sài Gòn 1970.  
-\[7\] Trụ Vũ, Hành Hương, Lá Bối, Sài Gòn, 1964, trang 11.  
-__
-
-__
+\[7\] Trụ Vũ, Hành Hương, Lá Bối, Sài Gòn, 1964, trang 11.
 
 TK  
 viet-nam-phat-giao-su-luan-chuong-40  
 https://langmai.org/tang-kinh-cac/vien-sach/giang-kinh/viet-nam-phat-giao-su-luan/chuong-40-chinh-quyen-ngo-dinh-diem-sup-do/  
-
-__

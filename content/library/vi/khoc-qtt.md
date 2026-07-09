@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_KHÓC QUÁCH THỊ TRANG_
-
 Gửi hương hồn Quách Thị Trang
 
 Đã một năm qua rồi, chóng thật ...  

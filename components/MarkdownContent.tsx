@@ -21,7 +21,7 @@ const variantClasses: Record<ContentVariant, string> = {
     "[&_p]:mb-4 [&_p]:last:mb-0",
   ].join(" "),
   mission: [
-    "text-sm sm:text-base",
+    "font-serif text-sm sm:text-base",
     "[&_p]:mb-6 [&_p]:leading-relaxed [&_p]:last:mb-0",
     "[&_blockquote]:my-8 [&_blockquote]:border-0 [&_blockquote]:p-0",
     "[&_blockquote_p]:text-center [&_blockquote_p]:font-serif [&_blockquote_p]:text-base [&_blockquote_p]:italic [&_blockquote_p]:leading-relaxed [&_blockquote_p]:text-[#538b01] sm:[&_blockquote_p]:text-lg",

@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _BÀN TAY CAO CẢ_
-
 Kính dâng trọn về QUÁCH THỊ TRANG  
 
 Bàn tày cao cả  

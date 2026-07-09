@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _CHÂN TÌNH CỦA EM_
-
 Sao em còn khóc  
 Ngày mới lên rực ánh mầu  
 Nắng đẹp viền trên mái tóc  

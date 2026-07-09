@@ -1,10 +1,8 @@
 ---
-title: "Lửa Thiêng -Ngày 20-8"
+title: "Lửa Thiêng - Ngày 20-8"
 section: "I"
 variant: "poetry"
 ---
-
-_Lửa Thiêng_ Ngày 20-8
 
 Đúng nửa đêm, giờ thần đêm ngự trị  
 Ngày Hai Mươi Tháng Tám Sáu Mươi Ba

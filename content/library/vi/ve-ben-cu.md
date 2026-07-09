@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _VỀ BẾN CŨ_
-
 Tặng hương hồn Quách Thị Trang
 
 Cúi đầu hồn vọng non sông  

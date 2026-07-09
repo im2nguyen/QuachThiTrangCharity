@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-\## _NỮ THÁNH TỬ ĐẠO QUÁCH THỊ TRANG_
-
 Quách Thị Trang ơi! Quách Thị Trang!  
 Còn đâu đôi mắt đẹp huy hoàng  
 Còn đâu thanh thoát lời kinh tụng,  
@@ -31,7 +29,5 @@ Phan Nhựt Minh
 N.K.M.H  
 Trích mục Hoa Muôn Phương  
 do Nhất Chi Mai phụ Trách
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 (1) "Máu tử đạo chảy đến đâu, hoa Đạo nở đến đấy!" Lời thầy Thích Giác Đức

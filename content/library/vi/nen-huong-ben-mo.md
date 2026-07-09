@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_NÉN HƯƠNG BÊN MỘ_
-
 Dư niệm một chiều thăm mộ em Quách Thị Trang  
 
 Một chiều buồn nắng tắt  

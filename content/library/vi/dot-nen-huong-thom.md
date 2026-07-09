@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_ĐỐT NÉN HƯƠNG THƠM KHẤN NGUYỆN CẦU_
-
 Tôi viết tên Trang cả triệu lần  
 Bao niềm thương tiếc lẫn phân vân  
 Hy sinh tranh đấu chống cường bạo  

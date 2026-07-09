@@ -4,10 +4,10 @@ variant: "mission"
 
 In this impermanent realm of human life, each of us, regardless of our fortune, experiences dark moments. For those less fortunate, these dark times can stretch into long, lightless nights, and sometimes feeling like endless centuries without hope. Just as darkness requires light to dissipate, support and empowerment are essential for those facing difficulties and hardships to help alleviate their struggles by gradually moving toward a brighter future. Over 60 years ago, Ms. Quach Thi Trang exemplified this spirit by using her body as a torch of wisdom to ignite hope in the midst of long, dark nights, to awaken the fight for equality and justice. Following her example, we aim to continue kindling the flames that will dispel the darkness and illuminate a hopeful future for those whose experience hardships in life, as expressed by the poet TRỤ VŨ:  
 
-_"Kindle the flame to light century’s dark nights  
+"Kindle the flame to light century’s dark nights  
 For the poeple’s future, let hope smile."  
 (TRỤ VŨ)  
-(Translation from Vietnamese)_  
+(Translation from Vietnamese)
 
 Since the early 1960s, the Quach Thi Trang Orphanage has been established in District 10, Saigon, with the purpose of caring for orphans, providing them with food, clothing, education, and preparing them for their future lives. In 2014, Dr. Duong Quang Duy and Assoc. Prof. Dr. Nguyen Thien Tong, the founding Head of the Aviation Engineering Department at Ho Chi Minh City University of Technology (HCMUT), furthered this mission by establishing scholarships in Ms. Quach Thi Trang’s name. These scholarships assist students at the same grade and age level as Ms. Trang was when she sacrificed her life. The goal is to partially alleviate their difficulties while simultaneously encouraging and empowering them on their learning journey.  
 We were also aware of other scholarships available in Hue city, as well as institutions and monasteries that nurture orphans, disabled children, and care for lonely elderly individuals.  

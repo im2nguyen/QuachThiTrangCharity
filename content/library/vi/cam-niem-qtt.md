@@ -4,8 +4,6 @@ section: "I"
 variant: "poetry"
 ---
 
-_Cảm niệm _QUÁCH-THỊ-TRANG_
-
 Quách Thị Trang  
 Ôi Quách Thị Trang!  
 Thế giới ba ngàn một bóng trăng  
@@ -68,4 +66,3 @@ Cười lên cái chết huy hoàng hồn thơ
 Sàigòn 23-11-1963  
 Vi Thoại  
 Trích từ: Tình Ta Trong Tât Cả
-_
