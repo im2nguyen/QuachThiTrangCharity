@@ -1,33 +1,26 @@
 import { SiPaypal, SiZelle } from "@/components/icons/simple-icons";
 import { PayPalDonateForm } from "@/components/donate/PayPalDonateForm";
+import { ZelleDonateForm } from "@/components/donate/ZelleDonateForm";
+import { CONTACT_EMAIL } from "@/lib/contact";
 import type { Locale } from "@/lib/locale";
-
-const CONTACT_EMAIL = "admin@quachthitrangcharity.com";
 
 const COPY = {
   vi: {
     methodsLabel: "Hình thức đóng góp",
     zelleLabel: "Zelle",
     paypalLabel: "PayPal & thẻ tín dụng",
-    zelleSteps: [
-      "Mở ứng dụng ngân hàng hoặc đăng nhập ngân hàng trực tuyến",
-      "Chọn gửi tiền qua Zelle",
-      "Gửi quyên góp tới",
-    ],
+    zelleIntro:
+      "Gửi quyên góp qua Zelle tới ngân hàng của bạn. Chúng tôi sẽ gửi biên nhận qua email.",
     followUp:
-      "Sau khi quyên góp, xin vui lòng liên hệ để chúng tôi cập nhật danh sách ân nhân và gửi biên nhận cho bạn:",
+      "Sau khi quyên góp, xin vui lòng liên hệ nếu bạn cần hỗ trợ thêm:",
   },
   en: {
     methodsLabel: "Donation methods",
     zelleLabel: "Zelle",
     paypalLabel: "PayPal & credit card",
-    zelleSteps: [
-      "Open your bank app or log in to online banking",
-      "Choose Send with Zelle",
-      "Send your donation to",
-    ],
-    followUp:
-      "After you donate, please reach out so we can update our benefactors list and send you a receipt:",
+    zelleIntro:
+      "Send your donation with Zelle through your bank. We will email you a receipt.",
+    followUp: "After you donate, please reach out if you need any help:",
   },
 } as const;
 
@@ -47,19 +40,10 @@ export function DonationMethods({ locale }: { locale: Locale }) {
               <SiZelle className="h-[1.1em] w-auto shrink-0" aria-hidden />
               <span>{copy.zelleLabel}</span>
             </p>
-            <ol className="mt-4 list-decimal space-y-2 pl-4 font-serif text-sm leading-relaxed text-foreground/90 sm:text-base">
-              <li>{copy.zelleSteps[0]}</li>
-              <li>{copy.zelleSteps[1]}</li>
-              <li>
-                {copy.zelleSteps[2]}{" "}
-                <a
-                  href={`mailto:${CONTACT_EMAIL}`}
-                  className="font-medium text-foreground underline decoration-border underline-offset-4 hover:text-primary"
-                >
-                  {CONTACT_EMAIL}
-                </a>
-              </li>
-            </ol>
+            <p className="mt-3 font-serif text-sm leading-relaxed text-foreground/90 sm:text-base">
+              {copy.zelleIntro}
+            </p>
+            <ZelleDonateForm locale={locale} />
           </section>
 
           <section className="min-w-0 flex-1">
