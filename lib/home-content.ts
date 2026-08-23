@@ -47,23 +47,27 @@ export type FeaturedResourceGroup = {
   links: { label: string; href: string; external?: boolean }[];
 };
 
-export function ceremonyImage(images: string[]): string | undefined {
-  return images.find(
-    (src) =>
-      !src.includes("/icons/") &&
-      !src.includes("devider") &&
-      !src.includes("danhsach")
+function normalizeImageSrc(src: string): string {
+  return src.replace(/^-\s+/, "").trim();
+}
+
+function isCeremonyImageSrc(src: string): boolean {
+  return (
+    src.startsWith("/") &&
+    !src.includes("/icons/") &&
+    !src.includes("devider") &&
+    !src.includes("danhsach")
   );
+}
+
+export function ceremonyImage(images: string[]): string | undefined {
+  return images.map(normalizeImageSrc).find(isCeremonyImageSrc);
 }
 
 export function getHeroCeremonyImages(year = 2025, limit = 4): string[] {
   return getScholarshipImages(year)
-    .filter(
-      (src) =>
-        !src.includes("/icons/") &&
-        !src.includes("devider") &&
-        !src.includes("danhsach")
-    )
+    .map(normalizeImageSrc)
+    .filter(isCeremonyImageSrc)
     .slice(0, limit);
 }
 
