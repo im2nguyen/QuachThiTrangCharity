@@ -67,7 +67,7 @@ export function getHeroCeremonyImages(year = 2025, limit = 4): string[] {
     .slice(0, limit);
 }
 
-export function getNewsTeasers(locale: Locale, years = [2025, 2024, 2023, 2022]): NewsTeaser[] {
+export function getNewsTeasers(locale: Locale, years = [2026, 2025, 2024, 2023]): NewsTeaser[] {
   const summaries = getScholarshipSummaries(locale);
   const base = locale === "en" ? "/en/hoc-bong" : "/hoc-bong";
   return years
