@@ -1,5 +1,9 @@
 {
   "vi": {
+    "2026": {
+      "title": "Lễ trao học bổng Quách Thị Trang năm 2026",
+      "blurb": "Trao học bổng lần 13 — 100 suất."
+    },
     "2020": {
       "title": "Lễ trao học bổng Quách Thị Trang năm 2020",
       "blurb": "26 học sinh nhận học bổng lần 7."
@@ -26,6 +30,10 @@
     }
   },
   "en": {
+    "2026": {
+      "title": "Quach Thi Trang Scholarship Ceremony 2026",
+      "blurb": "13th annual awards — 100 scholarships."
+    },
     "2020": {
       "title": "Quach Thi Trang Scholarship Ceremony 2020",
       "blurb": "26 recipients received the 7th annual awards."
