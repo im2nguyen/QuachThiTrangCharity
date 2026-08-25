@@ -28,6 +28,8 @@ export type NewsArticle = {
   scholarshipHref: string;
   pdfHref?: string;
   pdfLabel?: string;
+  pressHref?: string;
+  pressLabel?: string;
 };
 
 export type HueRecipientsPage = {
