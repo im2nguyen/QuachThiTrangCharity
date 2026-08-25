@@ -65,6 +65,16 @@ export function NewsPageView({ locale }: { locale: Locale }) {
                   {article.pdfLabel}
                 </a>
               )}
+              {article.pressHref && article.pressLabel && (
+                <a
+                  href={article.pressHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+                >
+                  {article.pressLabel}
+                </a>
+              )}
             </div>
           </article>
         ))}

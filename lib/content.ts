@@ -73,6 +73,8 @@ export function getScholarshipYear(year: string): ScholarshipYear | undefined {
     title: string;
     images?: string[];
     pdfs?: { label: string; href: string }[];
+    pressHref?: string;
+    pressLabel?: string;
     recipientsTable?: boolean;
   }>(path.join(CONTENT, "scholarships", `${year}.md`));
   if (!parsed) return undefined;
@@ -82,6 +84,8 @@ export function getScholarshipYear(year: string): ScholarshipYear | undefined {
     body: parsed.content,
     images: parsed.data.images ?? [],
     pdfs: parsed.data.pdfs ?? [],
+    pressHref: parsed.data.pressHref,
+    pressLabel: parsed.data.pressLabel,
     recipientsTable: parsed.data.recipientsTable,
   };
 }
@@ -106,6 +110,8 @@ export function getNewsArticles(locale: Locale): NewsArticle[] {
       scholarshipHref: string;
       pdfHref?: string;
       pdfLabel?: string;
+      pressHref?: string;
+      pressLabel?: string;
     }>(file);
     if (!parsed) continue;
     articles.push({
@@ -115,6 +121,8 @@ export function getNewsArticles(locale: Locale): NewsArticle[] {
       scholarshipHref: parsed.data.scholarshipHref,
       pdfHref: parsed.data.pdfHref,
       pdfLabel: parsed.data.pdfLabel,
+      pressHref: parsed.data.pressHref,
+      pressLabel: parsed.data.pressLabel,
     });
   }
   return articles.sort((a, b) => b.year - a.year);
