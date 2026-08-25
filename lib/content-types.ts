@@ -18,6 +18,8 @@ export type ScholarshipYear = {
   body: string;
   images: string[];
   pdfs: { label: string; href: string }[];
+  pressHref?: string;
+  pressLabel?: string;
   recipientsTable?: boolean;
 };
 

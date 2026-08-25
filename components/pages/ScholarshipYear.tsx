@@ -42,6 +42,19 @@ export function ScholarshipYearPage({ year, locale }: { year: string; locale: Lo
             </div>
           )}
 
+          {data.pressHref && data.pressLabel ? (
+            <p>
+              <a
+                href={data.pressHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+              >
+                {data.pressLabel}
+              </a>
+            </p>
+          ) : null}
+
           {recipients2025 && recipients2025.length > 0 ? (
             <RecipientsTable
               rows={recipients2025}
