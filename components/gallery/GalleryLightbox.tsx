@@ -107,21 +107,23 @@ export function GalleryLightbox({
         </Button>
       )}
 
-      <Image
-        key={src}
-        src={src}
-        alt={alt}
-        width={1400}
-        height={1050}
-        className={cn(
-          "relative z-[1] h-auto max-h-[90vh] w-auto max-w-[94vw] cursor-default object-contain shadow-2xl transition-all duration-300 ease-out animate-in fade-in-0 zoom-in-95",
-          open ? "scale-100 opacity-100" : "scale-[0.97] opacity-0"
-        )}
-        sizes="94vw"
-        priority
-      />
-    </div>
-    ,
+      <div className="relative z-[1] flex max-h-[90vh] max-w-[94vw] items-center justify-center p-4">
+        <Image
+          key={src}
+          src={src}
+          alt={alt}
+          width={1920}
+          height={1280}
+          className={cn(
+            "h-auto max-h-[min(90vh,1280px)] w-auto max-w-full cursor-default object-contain shadow-2xl transition-all duration-300 ease-out animate-in fade-in-0 zoom-in-95",
+            open ? "scale-100 opacity-100" : "scale-[0.97] opacity-0"
+          )}
+          sizes="94vw"
+          priority
+          style={{ width: "min(94vw, 1200px)", height: "auto" }}
+        />
+      </div>
+    </div>,
     document.body
   );
 }
